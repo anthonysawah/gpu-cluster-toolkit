@@ -1,0 +1,5 @@
+nodes:
+  - name: gpu-toolkit-worker
+    endpoint: http://localhost:30081
+  - name: gpu-toolkit-worker2
+    endpoint: http://localhost:30082
