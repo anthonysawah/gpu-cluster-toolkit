@@ -1,0 +1,31 @@
+# Compiled binaries
+**/bin/
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Go
+vendor/
+*.test
+*.out
+go.work
+go.work.sum
+coverage.txt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Kubebuilder
+config/manager/manager.yaml.bak
+cover.out
+
+# Local
+.env
+*.local
+
+# Claude Code worktrees (not part of the project)
+.claude/
